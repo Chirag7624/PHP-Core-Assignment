@@ -1,0 +1,21 @@
+### PHP Form Lifecycle
+
+1. First, the user opens the registration page and fills in details like username, 
+email, and password.
+
+2. When the user clicks the **Submit** button, the form sends all the entered
+ information to the PHP file.
+
+3. If the form uses the **POST** method, the data is sent to the PHP file using `$_POST`.
+
+4. PHP receives the submitted data and stores each value in variables, for example, 
+username, email, and password.
+
+5. PHP can then check the data, such as checking if the email is empty or if the email 
+format is correct.
+
+6. After processing the data, PHP creates the required output, such 
+as a **"Registration Successful"** message.
+
+7. Finally, the PHP page sends the result back to the browser, and the user can see 
+the processed information on the screen.

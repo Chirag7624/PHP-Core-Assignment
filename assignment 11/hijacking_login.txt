@@ -1,0 +1,29 @@
+1. Regenerate the session ID after login
+
+-> This prevents an attacker from continuing to use an old session ID 
+after the user authenticates.
+
+session_start();
+session_regenerate_id(true);
+$_SESSION["username"] = $username;
+
+2. Use secure session cookies
+
+Make the session cookie inaccessible to JavaScript and send it only over HTTPS.
+
+session_set_cookie_params([
+    "secure" => true,
+    "httponly" => true,
+    "samesite" => "Strict"
+]);
+session_start();
+
+Destroy the session when logging out
+
+Remove the session data and invalidate the session when the user logs out.
+
+session_start();
+session_unset();
+session_destroy();
+header("Location: login.php");
+exit();
