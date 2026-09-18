@@ -1,0 +1,5 @@
+-> php use dynamic typ cuz of variable can change from a string to integer during the program.
+
+-> Java uses static typing, so variable declared as a String cannot directly store to int.
+
+-> you need explicit conversion or another variable with that data type.

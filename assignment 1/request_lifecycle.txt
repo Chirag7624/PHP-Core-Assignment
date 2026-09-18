@@ -1,0 +1,5 @@
+-> first i create a file in xampp folder that name 
+   is hello.php and in this file i write code for print 
+   the hellow word in browser.
+
+url is : http://localhost/myphpdemo/hello.php.    

@@ -1,0 +1,13 @@
+question is : Explore the XAMPP control panel and identify the 
+              purpose of Apache and MySQL modules. Write a short note in a 
+              file named xampp_notes.txt describing when you would need to start 
+              each module.
+
+answer : 
+        after open the xampp i see 
+        Apache
+        MySQL
+        FileZilla
+        Mercury
+        Tomcat              
+
